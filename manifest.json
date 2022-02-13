@@ -1,0 +1,19 @@
+{
+  "name": "Download Uber Suggest",
+  "description": "Uber suggest does not have a download feature :(, how about make one ourself!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/16.png",
+      "32": "/32.png",
+      "48": "/48.png",
+      "128": "/128.png"
+    }
+  }
+}
